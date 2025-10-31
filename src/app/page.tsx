@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { Award, Car, CheckCircle, CreditCard, DollarSign, HelpCircle, MessageSquare, Phone, Shield, Star, Users } from "lucide-react";
+import { Award, Car, CheckCircle, CreditCard, DollarSign, HelpCircle, Linkedin, Mail, MessageSquare, Phone, Shield, Star, Users } from "lucide-react";
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import HeroSplit from '@/components/sections/hero/HeroSplit';
@@ -207,8 +207,8 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/4895435/pexels-photo-4895435.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Michael Rodriguez, Sales Manager",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com/in/michaelrodriguez" },
-                { icon: "Mail", url: "mailto:michael@autoprime.com" }
+                { icon: Linkedin, url: "https://linkedin.com/in/michaelrodriguez" },
+                { icon: Mail, url: "mailto:michael@autoprime.com" }
               ]
             },
             {
@@ -219,8 +219,8 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/2244746/pexels-photo-2244746.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Sarah Thompson, Finance Director",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com/in/sarahthompson" },
-                { icon: "Phone", url: "tel:+1234567890" }
+                { icon: Linkedin, url: "https://linkedin.com/in/sarahthompson" },
+                { icon: Phone, url: "tel:+1234567890" }
               ]
             }
           ]}
